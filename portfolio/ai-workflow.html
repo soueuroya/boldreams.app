@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Boldrin | AI Workflow</title>
+
+    <link rel="stylesheet" href="css/main.css?v=2">
+    <link rel="stylesheet" href="css/ai-workflow.css?v=1">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- FontAwesome for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</head>
+
+<body class="ai-workflow-body">
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">Daniel <span class="highlight">Boldrin</span></a>
+
+            <form action="search.html" method="GET" class="nav-search-form desktop-search"
+                style="display: flex; flex: 1; max-width: 300px; margin: 0 auto;">
+                <input type="text" name="q" placeholder="Search for skills, games, roles, companies..." required
+                    style="flex: 1; padding: 8px 15px; border-radius: 20px 0 0 20px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text); outline: none;">
+                <button type="submit"
+                    style="padding: 8px 16px; border-radius: 0 20px 20px 0; border: none; background: var(--accent); color: #111; font-weight: bold; cursor: pointer; transition: background 0.3s ease;"><i
+                        class="fas fa-search"></i></button>
+            </form>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li class="mobile-search">
+                    <form action="search.html" method="GET" class="nav-search-form"
+                        style="display: flex; flex: 1; max-width: 300px; margin: 0 auto;">
+                        <input type="text" name="q" placeholder="Search for skills, games, roles, companies..." required
+                            style="flex: 1; padding: 8px 15px; border-radius: 20px 0 0 20px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text); outline: none;">
+                        <button type="submit"
+                            style="padding: 8px 16px; border-radius: 0 20px 20px 0; border: none; background: var(--accent); color: #111; font-weight: bold; cursor: pointer; transition: background 0.3s ease;"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                </li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="experiences.html" class="nav-link">Experience</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="games.html" class="nav-link">Games</a></li>
+                <li><a href="ai-workflow.html" class="nav-link">AI Workflow</a></li>
+                <li><a href="Daniel Boldrin - Resume.pdf" target="_blank" class="nav-button">Resume <i
+                            class="fas fa-download"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Background Connection Graph SVG -->
+    <svg class="connection-container" preserveAspectRatio="none">
+        <path d="M 0,200 Q 300,300 600,100 T 1200,400 T 1920,200" class="connection-line" />
+        <path d="M 0,600 Q 400,400 800,800 T 1600,600 T 1920,900" class="connection-line" style="animation-duration: 25s; opacity: 0.15;" />
+    </svg>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="ai-hero" style="min-height: 80vh; padding-top: 120px;">
+        <div class="container hero-content" style="text-align: center; max-width: 1200px;">
+            <span class="hero-subtitle fade-up">Human + AI Production Pipeline</span>
+            <h1 class="hero-title fade-up delay-1">AI-Augmented <br><span class="highlight">Engineering</span></h1>
+            <p class="hero-desc fade-up delay-2" style="margin: 0 auto 3rem auto; max-width: 800px;">
+                I leverage a deeply integrated AI production ecosystem to accelerate architecture, coding, backend deployment, and iteration. This is a technical documentary of how I build scalable systems faster and smarter.
+            </p>
+            
+            <div class="ai-node ai-core-node fade-up delay-3" style="max-width: 800px; margin: 0 auto; background: rgba(15, 23, 42, 0.8);">
+                <i class="fas fa-network-wired ai-node-icon" style="font-size: 3rem;"></i>
+                <h2 style="margin-bottom: 0;">Central Orchestration Layer</h2>
+                <p style="color: var(--accent); margin-bottom: 1.5rem;">Connecting Ideation to Production</p>
+                <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                    <span class="tag"><i class="fas fa-robot"></i> ChatGPT</span>
+                    <span class="tag"><i class="fas fa-brain"></i> Claude</span>
+                    <span class="tag"><i class="fas fa-cube"></i> Unity MCP</span>
+                    <span class="tag"><i class="fas fa-database"></i> Supabase</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE AI BRAINSTACK -->
+    <section class="section section-alt" id="brainstack">
+        <div class="container">
+            <h2 class="fade-up" style="text-align: center; width: 100%; display: block; margin-bottom: 4rem;">The AI Brainstack</h2>
+            
+            <div class="brainstack-grid">
+                <!-- ChatGPT -->
+                <div class="ai-node fade-up">
+                    <h3 class="ai-node-title"><i class="fas fa-comment-dots ai-node-icon"></i> ChatGPT</h3>
+                    <p><strong>Role:</strong> Brainstorming, task decomposition, workflow organization, and architectural discussions.</p>
+                    <div class="mock-terminal" style="height: 120px;">
+                        <div class="terminal-line"><span class="terminal-prompt">></span> System prompt: Break down multiplayer netcode.</div>
+                        <div class="terminal-line"><span class="terminal-output">1. State Sync</span></div>
+                        <div class="terminal-line"><span class="terminal-output">2. Client Prediction</span></div>
+                    </div>
+                </div>
+
+                <!-- Claude -->
+                <div class="ai-node fade-up delay-1">
+                    <h3 class="ai-node-title"><i class="fas fa-brain ai-node-icon"></i> Claude</h3>
+                    <p><strong>Role:</strong> Deep reasoning, long-form technical analysis, refactoring complex systems.</p>
+                    <div style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 8px; margin-top: 1rem; border-left: 3px solid var(--ai-neon);">
+                        <code style="color: #c9d1d9; font-size: 0.85rem;">
+                            public async Task SyncState() {<br>
+                            &nbsp;&nbsp;await _networkManager.Dispatch();<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+
+                <!-- Gemini -->
+                <div class="ai-node fade-up delay-2">
+                    <h3 class="ai-node-title"><i class="fas fa-search ai-node-icon"></i> Gemini</h3>
+                    <p><strong>Role:</strong> Deep research, cross-referencing documentation, exploring alternative algorithms.</p>
+                    <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                        <span class="tag" style="background: rgba(255,255,255,0.1); color: #fff;">Search API</span>
+                        <span class="tag" style="background: rgba(255,255,255,0.1); color: #fff;">Docs Sync</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 4rem;"></div>
+
+            <!-- Antigravity Core -->
+            <div class="ai-node ai-core-node fade-up" style="border-width: 3px;">
+                <h3 class="ai-node-title" style="justify-content: center; font-size: 2rem;"><i class="fas fa-bolt ai-node-icon" style="font-size: 2rem;"></i> Antigravity</h3>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">The Command Center & Orchestration Layer</p>
+                <div class="split-card" style="text-align: left;">
+                    <div>
+                        <p>Everything connects through Antigravity. It orchestrates workflows, integrates external systems, and accelerates production pipelines by acting as an intelligent agentic hub.</p>
+                        <div class="tags">
+                            <span class="tag">Workflow Orchestration</span>
+                            <span class="tag">Agentic Execution</span>
+                            <span class="tag">Production Acceleration</span>
+                        </div>
+                    </div>
+                    <div class="mock-terminal" id="mock-terminal" style="margin-top: 0;">
+                        <div class="mock-terminal-header">
+                            <div class="mock-terminal-dot red"></div>
+                            <div class="mock-terminal-dot yellow"></div>
+                            <div class="mock-terminal-dot green"></div>
+                        </div>
+                        <div id="mock-terminal-output"></div>
+                        <div class="terminal-line" id="terminal-cursor-line">
+                            <span class="terminal-prompt">AG:~$</span><span class="terminal-cursor"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 4rem;"></div>
+
+            <!-- OpenRouter & Opencode -->
+            <div class="split-card fade-up">
+                <div class="ai-node">
+                    <h3 class="ai-node-title"><i class="fas fa-route ai-node-icon"></i> OpenRouter</h3>
+                    <p><strong>Role:</strong> Unified model gateway, handling dynamic model routing between Claude, GPT, Gemini, and MiniMax.</p>
+                </div>
+                <div class="ai-node">
+                    <h3 class="ai-node-title"><i class="fas fa-code ai-node-icon"></i> Opencode</h3>
+                    <p><strong>Role:</strong> In-IDE implementation, real-time code generation, intelligent refactoring, and contextual editing.</p>
+                </div>
+            </div>
+
+            <div style="height: 2rem;"></div>
+
+            <!-- Windsurf & Devin -->
+            <div class="split-card fade-up delay-1">
+                <div class="ai-node">
+                    <h3 class="ai-node-title"><i class="fas fa-wind ai-node-icon"></i> Windsurf</h3>
+                    <p><strong>Role:</strong> Iterative development sessions, rapid prototyping, and focused, context-aware engineering tasks.</p>
+                </div>
+                <div class="ai-node">
+                    <h3 class="ai-node-title"><i class="fas fa-user-astronaut ai-node-icon"></i> Devin</h3>
+                    <p><strong>Role:</strong> Autonomous coding, multi-step execution, and large-scale background refactors.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- UNITY MCP SECTION -->
+    <section class="section" id="unity-mcp">
+        <div class="container">
+            <div class="ai-node fade-up" style="background: rgba(30, 41, 59, 0.4); border-color: rgba(34, 197, 94, 0.5);">
+                <h2 style="margin-bottom: 2rem;"><i class="fab fa-unity ai-node-icon" style="font-size: 2.5rem; color: #fff;"></i> Unity MCP Integration</h2>
+                <p style="font-size: 1.1rem; max-width: 800px; margin-bottom: 2rem;">Controlling the Unity Editor through AI. This enables unprecedented automation for scene manipulation, prefab generation, component configuration, and runtime debugging directly via LLMs.</p>
+                
+                <div class="mock-unity">
+                    <div class="mock-unity-header">
+                        <span>Unity Editor - AI Bridge Active</span>
+                        <span style="color: var(--ai-neon);"><i class="fas fa-circle"></i> Connected</span>
+                    </div>
+                    <div class="mock-unity-body">
+                        <div class="mock-unity-hierarchy">
+                            <div style="font-weight: bold; margin-bottom: 0.5rem; border-bottom: 1px solid #333; padding-bottom: 0.3rem;">Hierarchy</div>
+                            <div class="unity-item"><i class="fas fa-cube"></i> GameManager</div>
+                            <div class="unity-item selected"><i class="fas fa-cube"></i> PlayerController [AI Generated]</div>
+                            <div class="unity-item"><i class="fas fa-camera"></i> MainCamera</div>
+                            <div class="unity-item"><i class="fas fa-sun"></i> Directional Light</div>
+                        </div>
+                        <div class="mock-unity-scene">
+                            <!-- Mock Scene View -->
+                            <div style="text-align: center; color: rgba(255,255,255,0.2);">
+                                <i class="fas fa-cubes" style="font-size: 4rem; margin-bottom: 1rem;"></i>
+                                <div>Scene View<br>AI Context Synced</div>
+                            </div>
+                            <!-- AI Overlay panel -->
+                            <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.8); border: 1px solid var(--ai-neon); border-radius: 4px; padding: 0.5rem; font-size: 0.75rem; color: var(--ai-neon);">
+                                > Applying RigidBody parameters...<br>
+                                > Updating Colyseus Network Transform...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLOUD INFRASTRUCTURE -->
+    <section class="section section-alt" id="infrastructure">
+        <div class="container">
+            <h2 class="fade-up" style="text-align: center; width: 100%; display: block;">Infrastructure & Deployment</h2>
+            
+            <div class="grid grid-3" style="margin-top: 3rem;">
+                <!-- Supabase -->
+                <div class="ai-node fade-up">
+                    <h3 class="ai-node-title"><i class="fas fa-database ai-node-icon"></i> Supabase</h3>
+                    <p><strong>Role:</strong> Realtime databases, Auth, Edge Functions, and Postgres management.</p>
+                    <div style="margin-top: 1rem; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 1rem;">
+                        <span style="font-size: 0.8rem; color: var(--sub);">Realtime Sync</span>
+                        <div style="width: 10px; height: 10px; background: var(--ai-neon); border-radius: 50%; box-shadow: 0 0 10px var(--ai-neon);"></div>
+                    </div>
+                </div>
+
+                <!-- Google Cloud -->
+                <div class="ai-node fade-up delay-1">
+                    <h3 class="ai-node-title"><i class="fab fa-google ai-node-icon"></i> Google Cloud</h3>
+                    <p><strong>Role:</strong> Scalable infrastructure, robust APIs, and heavy computational offloading.</p>
+                    <div style="margin-top: 1rem; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 1rem;">
+                        <span style="font-size: 0.8rem; color: var(--sub);">Serverless Deploy</span>
+                        <i class="fas fa-cloud-upload-alt" style="color: var(--ai-neon);"></i>
+                    </div>
+                </div>
+
+                <!-- Stripe & Github -->
+                <div class="ai-node fade-up delay-2">
+                    <h3 class="ai-node-title"><i class="fab fa-stripe-s ai-node-icon"></i> / <i class="fab fa-github ai-node-icon"></i> Ops</h3>
+                    <p><strong>Role:</strong> Automated billing via Stripe and CI/CD portfolio deployment through GitHub Pages.</p>
+                    <div style="margin-top: 1rem; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 1rem;">
+                        <span style="font-size: 0.8rem; color: var(--sub);">Pipeline Active</span>
+                        <i class="fas fa-check-circle" style="color: var(--ai-neon);"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT FLOW TIMELINE -->
+    <section class="section" id="project-flow">
+        <div class="container">
+            <h2 class="fade-up" style="margin-bottom: 4rem;">How A Project Flows</h2>
+            
+            <div class="workflow-timeline">
+                <div class="workflow-step fade-up">
+                    <h3 style="color: var(--ai-neon);">1. Ideation & Architecture</h3>
+                    <p>ChatGPT & Claude construct the system blueprint, breaking down requirements into agent-actionable tasks.</p>
+                </div>
+                <div class="workflow-step fade-up">
+                    <h3 style="color: var(--ai-neon);">2. Task Generation</h3>
+                    <p>Antigravity orchestrates the plan, spinning up parallel execution threads for autonomous assistants (Devin, Windsurf).</p>
+                </div>
+                <div class="workflow-step fade-up">
+                    <h3 style="color: var(--ai-neon);">3. Implementation (Unity + AI)</h3>
+                    <p>Opencode handles inline generation while Unity MCP manipulates the editor state directly, bridging the LLM to the engine.</p>
+                </div>
+                <div class="workflow-step fade-up">
+                    <h3 style="color: var(--ai-neon);">4. Backend Integration</h3>
+                    <p>Supabase tables and edge functions are spun up dynamically, authenticated, and wired into the Unity client.</p>
+                </div>
+                <div class="workflow-step fade-up">
+                    <h3 style="color: var(--ai-neon);">5. Deployment</h3>
+                    <p>CI/CD pipelines push builds to WebGL/Mobile, portfolio sites auto-deploy via GitHub Pages, and Stripe handles monetization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section class="section section-alt" id="philosophy">
+        <div class="container" style="text-align: center; max-width: 800px;">
+            <h2 class="fade-up">Why This Workflow?</h2>
+            <p class="fade-up delay-1" style="font-size: 1.15rem; margin-bottom: 2rem;">
+                AI isn't just about generation; it's about <strong>orchestration and iteration speed</strong>. By integrating these tools directly into my engineering pipeline, I reduce repetitive boilerplate, explore multiple architectural solutions rapidly, and amplify my capabilities as a Lead Developer. It is a technical multiplier, allowing a single engineer to architect, build, and deploy full-stack interactive ecosystems at unprecedented speeds.
+            </p>
+            <div class="fade-up delay-2">
+                <a href="mailto:daniel_cboldrin@hotmail.com" class="btn btn-primary">Discuss Technical Integration</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links fade-up">
+                <a href="mailto:daniel_cboldrin@hotmail.com" class="social-link" title="Email me" aria-label="Email"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-boldrin/" target="_blank" class="social-link"
+                    title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/soueuroya" target="_blank" class="social-link" title="GitHub"
+                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://danielboldrin.itch.io/" target="_blank" class="social-link" title="Itch.io"
+                    aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+            </div>
+            <p class="copyright fade-up delay-1">&copy; 2026 Daniel Boldrin. Built with Unity, C#, and a passion for
+                interactive systems.</p>
+        </div>
+    </footer>
+
+    <!-- unified script -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/ufo-multiplayer.js" defer></script>
+    <script src="js/main.js?v=2"></script>
+    <script src="js/ai-workflow.js?v=1"></script>
+</body>
+
+</html>

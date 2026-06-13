@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boldreams | Software & Interactive Studio</title>
+
+    <link rel="stylesheet" href="css/main.css?v=1">
+    
+    <!-- FontAwesome for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+
+    <style>
+        /* Boldreams Corporate specific overrides */
+        :root {
+            --accent: #22c55e;
+            --accent-hover: #16a34a;
+        }
+
+        /* Clean up hero section for corporate feel */
+        .hero-title {
+            font-size: clamp(3rem, 6vw, 4.5rem);
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle-corporate {
+            font-size: 1.5rem;
+            color: var(--text);
+            font-weight: 300;
+            margin-bottom: 2rem;
+            max-width: 800px;
+        }
+
+        .hero-desc {
+            max-width: 700px;
+        }
+
+        .portfolio-banner {
+            background: linear-gradient(135deg, var(--card) 0%, rgba(34, 197, 94, 0.1) 100%);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 4rem auto;
+            max-width: 900px;
+        }
+
+        .portfolio-banner h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-banner p {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: var(--card);
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            border: 1px solid var(--border);
+        }
+        
+        .contact-item i {
+            color: var(--accent);
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#hero" class="logo">Bol<span class="highlight">dreams</span></a>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="portfolio/index.html" class="nav-link">Daniel's Portfolio</a></li>
+                <li><a href="#contact" class="btn btn-outline" style="padding: 0.5rem 1rem; border-width: 1px; font-size: 0.85rem;">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container hero-content fade-up">
+            <div class="hero-title-wrapper">
+                <h1 class="hero-title fade-up">Boldreams</h1>
+            </div>
+            <h2 class="hero-subtitle-corporate fade-up delay-1">Software, games, and interactive systems built with production experience.</h2>
+            <p class="hero-desc fade-up delay-2">
+                Boldreams creates mobile apps, games, VR/XR experiences, and scalable interactive software. We specialize in transforming complex technical requirements into polished, high-performance digital products.
+            </p>
+            <div class="hero-actions fade-up delay-3">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section section-alt" id="about">
+        <div class="container">
+            <h2 class="fade-up">About The Studio</h2>
+            <div class="grid grid-2" style="align-items: center;">
+                <div class="fade-up delay-1">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">Led by Experience</h3>
+                    <p>
+                        Boldreams is an independent software and game development studio led by <strong>Daniel Boldrin</strong>.
+                    </p>
+                    <p>
+                        With over 14 years of production experience as a Senior Unity and Software Developer, Daniel has built and shipped games, mobile applications, VR systems, scalable multiplayer platforms, and complex enterprise software.
+                    </p>
+                    <p>
+                        Our mission is to bring technical excellence and robust architecture to every project, ensuring that our products don't just look great—they perform flawlessly at scale.
+                    </p>
+                    <div style="margin-top: 2rem;">
+                        <a href="portfolio/index.html" class="btn btn-outline">Learn more about Daniel</a>
+                    </div>
+                </div>
+                <div class="fade-up delay-2" style="background: var(--card); border: 1px solid var(--border); padding: 3rem; border-radius: 1rem; text-align: center;">
+                    <i class="fas fa-code-branch highlight" style="font-size: 4rem; margin-bottom: 2rem;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">14+ Years of Engineering</h3>
+                    <p style="margin-bottom: 0;">Delivering production-grade software across mobile, web, PC, console, and VR platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="fade-up">Our Services</h2>
+            
+            <div class="grid grid-3">
+                <div class="card fade-up delay-1">
+                    <i class="fas fa-mobile-alt card-icon"></i>
+                    <h3 class="card-title">Mobile App Development</h3>
+                    <p class="card-desc">
+                        Native and cross-platform mobile applications designed for high performance, intuitive UX, and seamless backend integration.
+                    </p>
+                </div>
+
+                <div class="card fade-up delay-2">
+                    <i class="fas fa-gamepad card-icon"></i>
+                    <h3 class="card-title">Game Development</h3>
+                    <p class="card-desc">
+                        Full-cycle game development from concept to launch across mobile, PC, and console platforms.
+                    </p>
+                </div>
+
+                <div class="card fade-up delay-3">
+                    <i class="fab fa-unity card-icon"></i>
+                    <h3 class="card-title">Unity Development</h3>
+                    <p class="card-desc">
+                        Expert-level Unity engineering for 2D/3D games, tools, and simulations, optimizing for memory, frame-rate, and scalability.
+                    </p>
+                </div>
+                
+                <div class="card fade-up delay-1">
+                    <i class="fas fa-vr-cardboard card-icon"></i>
+                    <h3 class="card-title">VR/XR Applications</h3>
+                    <p class="card-desc">
+                        Immersive virtual and extended reality experiences, including training simulations and interactive spatial systems.
+                    </p>
+                </div>
+                
+                <div class="card fade-up delay-2">
+                    <i class="fas fa-network-wired card-icon"></i>
+                    <h3 class="card-title">Multiplayer Systems</h3>
+                    <p class="card-desc">
+                        Robust real-time networking, authoritative server architecture, and matchmaking for thousands of concurrent users.
+                    </p>
+                </div>
+                
+                <div class="card fade-up delay-3">
+                    <i class="fas fa-users-cog card-icon"></i>
+                    <h3 class="card-title">Technical Leadership & Consulting</h3>
+                    <p class="card-desc">
+                        Guiding technical direction, establishing architecture standards, and leading engineering teams to success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="fade-up">Products & Projects</h2>
+            <p class="fade-up section-desc" style="margin-bottom: 3rem;">
+                A selection of our shipped products and major development projects.
+            </p>
+
+            <div class="game-grid">
+                
+                <div class="game-block fade-up delay-1">
+                    <div class="game-content" style="background: var(--card);">
+                        <span class="game-category">Mobile Game</span>
+                        <h3 class="game-title">PetCity</h3>
+                        <p class="game-desc">A virtual pet simulation focusing on rich interactions and long-term player engagement.</p>
+                        <div class="tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-block fade-up delay-2">
+                    <div class="game-content" style="background: var(--card);">
+                        <span class="game-category">Application</span>
+                        <h3 class="game-title">Hoame</h3>
+                        <p class="game-desc">A lifestyle and meditation app designed with a clean UX and robust backend state management.</p>
+                        <div class="tags">
+                            <span class="tag">App</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-block fade-up delay-3">
+                    <div class="game-content" style="background: var(--card);">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Biom</h3>
+                        <p class="game-desc">An interactive eco-system exploration title highlighting procedural generation.</p>
+                        <div class="tags">
+                            <span class="tag">PC/Console</span>
+                            <span class="tag">Simulation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-block fade-up delay-1">
+                    <div class="game-content" style="background: var(--card);">
+                        <span class="game-category">Multiplayer System</span>
+                        <h3 class="game-title">Suprema Poker</h3>
+                        <p class="game-desc">A massive-scale modular poker platform handling real-time matches and global union systems.</p>
+                        <div class="tags">
+                            <span class="tag">Multiplayer</span>
+                            <span class="tag">Architecture</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-block fade-up delay-2">
+                    <div class="game-content" style="background: var(--card);">
+                        <span class="game-category">Simulation</span>
+                        <h3 class="game-title">VR Training Systems</h3>
+                        <p class="game-desc">Ultra-high fidelity medical and technical simulations emphasizing spatial UX for standalone headsets.</p>
+                        <div class="tags">
+                            <span class="tag">VR/XR</span>
+                            <span class="tag">OpenXR</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-block fade-up delay-3">
+                    <div class="game-content" style="background: var(--card); display: flex; align-items: center; justify-content: center; text-align: center; border: 1px dashed var(--border);">
+                        <div>
+                            <i class="fas fa-plus-circle" style="font-size: 2rem; color: var(--sub); margin-bottom: 1rem;"></i>
+                            <h3 class="game-title" style="color: var(--sub);">More Highlights</h3>
+                            <p class="game-desc" style="color: var(--sub);">Explore our full portfolio for more games and enterprise software.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="portfolio-banner fade-up">
+                <h3>Looking for Daniel's personal portfolio?</h3>
+                <p>View Daniel Boldrin's resume, shipped projects, and detailed career history.</p>
+                <a href="portfolio/index.html" class="btn btn-primary">Go to Personal Portfolio <i class="fas fa-arrow-right" style="margin-left: 0.5rem;"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <h2 class="fade-up">Get In Touch</h2>
+            <p class="fade-up delay-1" style="max-width: 600px; margin: 0 auto 3rem auto;">
+                Ready to build something incredible? Contact us to discuss your next software, game, or XR project.
+            </p>
+            
+            <div class="contact-info fade-up delay-2">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <a href="mailto:daniel@boldreams.app" style="color: var(--text); font-weight: 600; font-size: 1.1rem; display: block;">daniel@boldreams.app</a>
+                        <span style="color: var(--sub); font-size: 0.9rem;">Direct Contact</span>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-paper-plane"></i>
+                    <div>
+                        <a href="mailto:contact@boldreams.app" style="color: var(--text); font-weight: 600; font-size: 1.1rem; display: block;">contact@boldreams.app</a>
+                        <span style="color: var(--sub); font-size: 0.9rem;">General Inquiries</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links fade-up">
+                <a href="#" class="social-link" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copyright fade-up delay-1">&copy; 2026 Boldreams. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

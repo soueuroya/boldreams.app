@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <!-- Dark navy background matching the site theme -->
+    <rect width="512" height="512" rx="120" fill="#0f172a"/>
+    
+    <!-- D and B stylized letters -->
+    <!-- Letter D -->
+    <path d="M140 140 H240 C310 140 370 190 370 260 C370 330 310 380 240 380 H140 V140 Z" fill="none" stroke="#22c55e" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Letter B stylized inner lines -->
+    <path d="M220 260 H300 C340 260 370 230 370 195 C370 160 340 140 300 140 H140" fill="none" stroke="#22c55e" stroke-width="45" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    <path d="M220 260 H310 C350 260 380 290 380 325 C380 360 350 380 310 380 H140" fill="none" stroke="#22c55e" stroke-width="45" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    
+</svg>

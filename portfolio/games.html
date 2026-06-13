@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Boldrin | Games</title>
+    
+    <link rel="stylesheet" href="css/main.css?v=2">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- FontAwesome for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">Daniel <span class="highlight">Boldrin</span></a>
+            
+            <form action="search.html" method="GET" class="nav-search-form desktop-search" style="display: flex; flex: 1; max-width: 300px; margin: 0 auto;">
+                <input type="text" name="q" placeholder="Search for skills, games, roles, companies..." required style="flex: 1; padding: 8px 15px; border-radius: 20px 0 0 20px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text); outline: none;">
+                <button type="submit" style="padding: 8px 16px; border-radius: 0 20px 20px 0; border: none; background: var(--accent); color: #111; font-weight: bold; cursor: pointer; transition: background 0.3s ease;"><i class="fas fa-search"></i></button>
+            </form>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li class="mobile-search">
+                    <form action="search.html" method="GET" class="nav-search-form" style="display: flex; flex: 1; max-width: 300px; margin: 0 auto;">
+                        <input type="text" name="q" placeholder="Search for skills, games, roles, companies..." required style="flex: 1; padding: 8px 15px; border-radius: 20px 0 0 20px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text); outline: none;">
+                        <button type="submit" style="padding: 8px 16px; border-radius: 0 20px 20px 0; border: none; background: var(--accent); color: #111; font-weight: bold; cursor: pointer; transition: background 0.3s ease;"><i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="experiences.html" class="nav-link">Experience</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="games.html" class="nav-link">Games</a></li>
+                <li><a href="ai-workflow.html" class="nav-link">AI Workflow</a></li>
+                <li><a href="Daniel Boldrin - Resume.pdf" target="_blank" class="nav-button">Resume <i class="fas fa-download"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="height: 100px;"></div> <!-- Spacer for fixed nav -->
+
+    <!-- GAMES SECTION -->
+    <section class="section section-alt" id="games">
+        <div class="container">
+            <h2 class="fade-up">All Games & Prototypes</h2>
+            <p class="fade-up" style="max-width: 800px; margin-bottom: 3rem; font-size: clamp(0.95rem, 2vw, 1.1rem); line-height: 1.6;">
+                A complete catalog of my shipped titles, prototypes, game jams, and open-source Unity frameworks. For playable builds, visit my <a href="https://danielboldrin.itch.io/" target="_blank" class="highlight">Itch.io profile</a>.
+            </p>
+            
+            <div class="game-grid">
+
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/rawmen" target="_blank" class="game-block fade-up delay-2" data-tags="rawmen action / arena shooter food fighter arena action">
+                    <div class="game-block-bg" style="background-image: url('Images/Rawmen Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Action / Arena Shooter</span>
+                        <h3 class="game-title">RAWMEN</h3>
+                        <p class="game-desc">Food Fighter Arena Action</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/rodeo-poker" target="_blank" class="game-block fade-up delay-3" data-tags="rodeo poker unity tool / framework bet game template card game">
+                    <div class="game-block-bg" style="background-image: url('Images/Rodeo cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Unity Tool / Framework</span>
+                        <h3 class="game-title">Rodeo Poker</h3>
+                        <p class="game-desc">Bet Game Template Card Game</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/hoame" target="_blank" class="game-block fade-up delay-1" data-tags="hoame game meditation app educational">
+                    <div class="game-block-bg" style="background-image: url('Images/hoame Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">hoame</h3>
+                        <p class="game-desc">Meditation App Educational</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/cg" target="_blank" class="game-block fade-up delay-2" data-tags="courting glory game dev card fighting game">
+                    <div class="game-block-bg" style="background-image: url('Images/Courting Glory Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">Courting Glory</h3>
+                        <p class="game-desc">Card Fighting Game</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/colorise" target="_blank" class="game-block fade-up delay-3" data-tags="colorise game a colorful head-breaking platformer!">
+                    <div class="game-block-bg" style="background-image: url('Images/Colorise Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">ColoRise</h3>
+                        <p class="game-desc">A colorful head-breaking platformer!</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/chalko" target="_blank" class="game-block fade-up delay-1" data-tags="chalko game dev puzzle platformer">
+                    <div class="game-block-bg" style="background-image: url('Images/Chalko Cover.gif');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">Chalko</h3>
+                        <p class="game-desc">Puzzle Platformer</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://oswald-studios.itch.io/heist-of-whiskers" target="_blank" class="game-block fade-up delay-2" data-tags="heist of whiskers game 2d obstacle patformer">
+                    <div class="game-block-bg" style="background-image: url('Images/Heist of Whikers Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Heist of Whiskers</h3>
+                        <p class="game-desc">2D obstacle patformer</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/qbert" target="_blank" class="game-block fade-up delay-3" data-tags="qbert game dev arcade game remake">
+                    <div class="game-block-bg" style="background-image: url('Images/QBert Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">Qbert</h3>
+                        <p class="game-desc">Arcade Game Remake</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/crocgame" target="_blank" class="game-block fade-up delay-1" data-tags="crocgame game dev infinite runner platformer">
+                    <div class="game-block-bg" style="background-image: url('Images/Croc Game Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">CrocGame</h3>
+                        <p class="game-desc">Infinite Runner Platformer</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/diedle" target="_blank" class="game-block fade-up delay-2" data-tags="diedle36 game daily dice guessing game. puzzle">
+                    <div class="game-block-bg" style="background-image: url('Images/Diedle36 Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Diedle36</h3>
+                        <p class="game-desc">Daily dice guessing game. Puzzle</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/battlebots" target="_blank" class="game-block fade-up delay-3" data-tags="battlebots game dev battle arena game fighting">
+                    <div class="game-block-bg" style="background-image: url('Images/Battlebots Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">BattleBots</h3>
+                        <p class="game-desc">Battle Arena Game Fighting</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/nail-down" target="_blank" class="game-block fade-up delay-1" data-tags="nail down game mobile post-apocalyptic puzzle platform">
+                    <div class="game-block-bg" style="background-image: url('Images/NailDown Coverpng.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Nail Down</h3>
+                        <p class="game-desc">Mobile Post-Apocalyptic Puzzle Platform</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/hacking-minigame" target="_blank" class="game-block fade-up delay-2" data-tags="hacking minigame game ">
+                    <div class="game-block-bg" style="background-image: url('Images/Hackign Minigame Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Hacking Minigame</h3>
+                        <p class="game-desc"></p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/sky-runner" target="_blank" class="game-block fade-up delay-3" data-tags="sky runner game dev endless runner platformer">
+                    <div class="game-block-bg" style="background-image: url('Images/Sky Runner.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">Sky Runner</h3>
+                        <p class="game-desc">Endless Runner Platformer</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/fruit-splash" target="_blank" class="game-block fade-up delay-1" data-tags="fruit splash unity tool / framework unity match - match 3 game template for unity projects">
+                    <div class="game-block-bg" style="background-image: url('Images/Fruit Splash Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Unity Tool / Framework</span>
+                        <h3 class="game-title">Fruit Splash</h3>
+                        <p class="game-desc">Unity Match - Match 3 Game Template for Unity projects</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/lockpicking-minigame-template" target="_blank" class="game-block fade-up delay-2" data-tags="lockpicking minigame game unity lockpicking puzzle template">
+                    <div class="game-block-bg" style="background-image: url('Images/Lockpicking Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Lockpicking Minigame</h3>
+                        <p class="game-desc">Unity lockpicking puzzle template</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/unity-multiplayer-rooms-template" target="_blank" class="game-block fade-up delay-3" data-tags="unity multiplayer unity tool / framework template project for multiplayer unity webgl projects">
+                    <div class="game-block-bg" style="background-image: url('Images/Unity Multiplayer Template Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Unity Tool / Framework</span>
+                        <h3 class="game-title">Unity Multiplayer</h3>
+                        <p class="game-desc">Template Project for Multiplayer Unity WebGL projects</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/simple-unity-audio-visualizer" target="_blank" class="game-block fade-up delay-1" data-tags="simple unity audio game unity project that reacts to the song is currently being played.">
+                    <div class="game-block-bg" style="background-image: url('Images/Unity Audio visualizer Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Simple Unity Audio</h3>
+                        <p class="game-desc">Unity project that reacts to the song is currently being played.</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/wired-saintz" target="_blank" class="game-block fade-up delay-2" data-tags="wired saintz game 2d survival base defense inventory management repairing">
+                    <div class="game-block-bg" style="background-image: url('Images/Wired Saintz Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Wired Saintz</h3>
+                        <p class="game-desc">2d survival base defense inventory management repairing</p>
+                    </div>
+                </a>
+                <!-- Game Item -->
+                <a href="https://danielboldrin.itch.io/sword" target="_blank" class="game-block fade-up delay-3" data-tags="sword game survival game where you are the sword.">
+                    <div class="game-block-bg" style="background-image: url('Images/Sword Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game</span>
+                        <h3 class="game-title">Sword</h3>
+                        <p class="game-desc">Survival game where you are the sword.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links fade-up">
+                <a href="mailto:daniel_cboldrin@hotmail.com" class="social-link" title="Email me" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-boldrin/" target="_blank" class="social-link" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/soueuroya" target="_blank" class="social-link" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://danielboldrin.itch.io/" target="_blank" class="social-link" title="Itch.io" aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+            </div>
+            <p class="copyright fade-up delay-1">&copy; 2026 Daniel Boldrin. Built with Unity, C#, and a passion for interactive systems.</p>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- unified script -->
+    <script src="js/main.js?v=2"></script>
+</body>
+</html>

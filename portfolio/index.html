@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Boldrin | Unity Specialist</title>
+
+    <link rel="stylesheet" href="css/main.css?v=2">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- FontAwesome for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</head>
+
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#hero" class="logo">Daniel <span class="highlight">Boldrin</span></a>
+
+            <form action="search.html" method="GET" class="nav-search-form desktop-search"
+                style="display: flex; flex: 1; max-width: 300px; margin: 0 auto;">
+                <input type="text" name="q" placeholder="Search for skills, games, roles, companies..." required
+                    style="flex: 1; padding: 8px 15px; border-radius: 20px 0 0 20px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text); outline: none;">
+                <button type="submit"
+                    style="padding: 8px 16px; border-radius: 0 20px 20px 0; border: none; background: var(--accent); color: #111; font-weight: bold; cursor: pointer; transition: background 0.3s ease;"><i
+                        class="fas fa-search"></i></button>
+            </form>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li class="mobile-search">
+                    <form action="search.html" method="GET" class="nav-search-form"
+                        style="display: flex; flex: 1; max-width: 300px; margin: 0 auto;">
+                        <input type="text" name="q" placeholder="Search for skills, games, roles, companies..." required
+                            style="flex: 1; padding: 8px 15px; border-radius: 20px 0 0 20px; border: 1px solid var(--border); background: rgba(255,255,255,0.05); color: var(--text); outline: none;">
+                        <button type="submit"
+                            style="padding: 8px 16px; border-radius: 0 20px 20px 0; border: none; background: var(--accent); color: #111; font-weight: bold; cursor: pointer; transition: background 0.3s ease;"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                </li>
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="experiences.html" class="nav-link">Experience</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="games.html" class="nav-link">Games</a></li>
+                <li><a href="ai-workflow.html" class="nav-link">AI Workflow</a></li>
+                <li><a href="Daniel Boldrin - Resume.pdf" target="_blank" class="nav-button">Resume <i
+                            class="fas fa-download"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container hero-content fade-up">
+            <span class="hero-subtitle">Unity Specialist</span>
+            <div class="hero-title-wrapper">
+                <h1 class="hero-title fade-up">Engineering<br>Scalable <br><span
+                        class="highlight">Interactive<br>Experiences.</span></h1>
+                <div class="speech-bubble fade-up delay-1">
+                    Want to get in touch?<br>
+                    You can reach me at<br>
+                    <a href="mailto:daniel_cboldrin@hotmail.com">daniel_cboldrin@hotmail.com</a>
+                </div>
+            </div>
+            <p class="hero-desc fade-up delay-2" style="max-width: 75ch;">
+                Results-driven Unity Specialist with 14+ years of experience designing scalable multiplayer systems,
+                immersive VR simulations, and high-performance game architectures from concept to production.
+            </p>
+            <div class="hero-actions">
+                <a href="#games" class="btn btn-primary">View My Work</a>
+                <a href="Daniel Boldrin - Resume.pdf" download class="btn btn-outline" target="_blank"><i
+                        class="fas fa-file-pdf"></i> Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="expertise-bg-overlay layer-1" id="expertise-overlay-1"></div>
+    <div class="expertise-bg-overlay layer-2" id="expertise-overlay-2"></div>
+    <!-- CORE EXPERTISE SECTION -->
+    <section class="section section-alt" id="expertise">
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 class="fade-up">Core Expertise</h2>
+
+            <div class="grid grid-3">
+                <div class="card fade-up delay-1" data-bg="Images/rawmen.gif,Images/rodeo.gif">
+                    <i class="fas fa-server card-icon"></i>
+                    <h3 class="card-title">Multiplayer Architecture</h3>
+                    <p class="card-desc">
+                        Designing authoritative server models, distributed systems, and real-time networking protocols
+                        handling thousands of concurrent users across mobile and web platforms.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Netcode</span>
+                        <span class="tag">Colyseus</span>
+                        <span class="tag">Pomelo</span>
+                    </div>
+                </div>
+
+                <div class="card fade-up delay-2" data-bg="Images/PPE.gif,Images/PULSE.gif,Images/BREATH.gif">
+                    <i class="fas fa-vr-cardboard card-icon"></i>
+                    <h3 class="card-title">Immersive VR & Simulation</h3>
+                    <p class="card-desc">
+                        Developing ultra-high fidelity medical and technical simulations with heavy emphasis on spatial
+                        UX, procedural interactions, and seamless performance targeting standalone headsets.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Unity3D</span>
+                        <span class="tag">OpenXR</span>
+                        <span class="tag">WaveXR</span>
+                    </div>
+                </div>
+
+                <div class="card fade-up delay-3" data-bg="Images/FOLD.gif">
+                    <i class="fas fa-layer-group card-icon"></i>
+                    <h3 class="card-title">Full-Stack Ecosystems</h3>
+                    <p class="card-desc">
+                        Bridging complex interactive front-ends with resilient backend services. Extensive background in
+                        MVC patterns, API deployments, and high-volume database administration.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">C# / .NET</span>
+                        <span class="tag">SQL / DB Design</span>
+                        <span class="tag">AWS Data Layers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="fade-up">Professional Journey</h2>
+
+            <div class="timeline">
+                <!-- Anime Universe -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-role">Lead Unity Developer</h3>
+                            <span class="timeline-company">Anime Universe</span>
+                        </div>
+                        <span class="timeline-date">Feb 2026 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>
+                            Leading the Unity development division, contributing to the technical foundation from
+                            early-stage architecture to production. Coordinating the Unity team across product, design,
+                            and art departments to define engineering standards and technical direction.
+                        </p>
+                        <ul>
+                            <li><strong>Flip Frame Ninjas:</strong> Leading development of an endless runner, driving
+                                design, system architecture, gameplay, and backend services.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Boldreams -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-role">Founder & Tech Leader</h3>
+                            <span class="timeline-company">Boldreams</span>
+                        </div>
+                        <span class="timeline-date">Dec 2024 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>
+                            Founder of an indie-focused game development studio providing full-cycle development and
+                            technical consulting for international clients, specializing in scalable multiplayer systems
+                            and service-based games.
+                        </p>
+                        <ul>
+                            <li><strong>Swipe Kings:</strong> Skill-based competitive mobile game featuring real-time
+                                matchmaking and progression systems in a scalable multiplayer environment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Suprema Gaming -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-role">Lead Unity Developer</h3>
+                            <span class="timeline-company">Suprema Gaming</span>
+                        </div>
+                        <span class="timeline-date">Nov 2024 - Feb 2026</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>
+                            Architected and delivered large-scale multiplayer 2D games using Unity and C#. Integrated
+                            real-time networking with Colyseus and Pomelo, optimizing synchronization for thousands of
+                            concurrent users.
+                        </p>
+                        <ul>
+                            <li><strong>Rodeo & Poker App:</strong> Large-scale multiplayer betting games and modular
+                                poker platforms supporting real-time matches, custom clubs, and global union systems.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ZeMind Studios -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-role">Lead Unity Developer</h3>
+                            <span class="timeline-company">ZeMind Studios</span>
+                        </div>
+                        <span class="timeline-date">Nov 2022 - Mar 2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>
+                            Led cross-functional development team in creating mobile and console applications. Designed
+                            and implemented gameplay systems and mechanics in Unity (C#) across iOS, Android, and
+                            console platforms.
+                        </p>
+                        <ul>
+                            <li><strong>Rawmen & Courting Glory:</strong> Shipped a radical 2-8 player arena shooter for
+                                cross-console and PC, and developed a Web3 deck-builder fighting game.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="fade-up" style="text-align: center; margin-top: 4rem;">
+                    <a href="experiences.html" class="btn btn-primary">View Full Career History</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="fade-up">Education</h2>
+            <div class="grid grid-2" style="margin-bottom: 3rem;">
+                <div class="card fade-up delay-1">
+                    <div class="card-bg" style="background-image: url('Images/george brown background.png');"></div>
+                    <i class="fas fa-graduation-cap card-icon"></i>
+                    <h3 class="card-title">Game Programming</h3>
+                    <h5>George Brown College - Toronto, ON - Canada</h5>
+                    <p class="card-desc">Advanced Diploma (Honours)<br>
+                        Focused on Unity, C++, OpenGL, and engine architecture.</p>
+                </div>
+                <div class="card fade-up delay-2">
+                    <div class="card-bg" style="background-image: url('Images/ifsp background.png');"></div>
+                    <i class="fas fa-laptop-code card-icon"></i>
+                    <h3 class="card-title">System Analysis & Dev</h3>
+                    <h5>IFSP - Araraquara, SP - Brazil</h5>
+                    <p class="card-desc">Diploma focused on C#, database management,
+                        networking, and software design.</p>
+                </div>
+            </div>
+            <div class="fade-up" style="text-align: center; margin-top: 2rem;">
+                <a href="education.html" class="btn btn-primary">View Full Background</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GAMES PREVIEW -->
+    <section class="section" id="games">
+        <div class="container">
+            <h2 class="fade-up">Selected Games</h2>
+            <p class="fade-up section-desc">
+                A curated selection of shipped titles, prototypes, and technical implementations.
+                <br>Explore the complete collection containing over 20+ titles on my <a
+                    href="https://danielboldrin.itch.io/" target="_blank" class="highlight">Itch.io portfolio</a>.
+            </p>
+
+            <div class="game-grid">
+
+                <!-- Project 1 -->
+                <a href="https://danielboldrin.itch.io/rawmen" target="_blank" class="game-block fade-up delay-1">
+                    <div class="game-block-bg" style="background-image: url('Images/Rawmen Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Action / Arena Shooter</span>
+                        <h3 class="game-title">RAWMEN</h3>
+                        <p class="game-desc">Food Fighter Arena Action shipped for PC and modern Consoles. Fast-paced
+                            multiplayer systems and highly stylized physics interactions.</p>
+                        <div class="tags">
+                            <span class="tag">Console</span>
+                            <span class="tag">Multiplayer</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://danielboldrin.itch.io/colorise" target="_blank" class="game-block fade-up delay-2">
+                    <div class="game-block-bg" style="background-image: url('Images/Colorise Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Puzzle Platformer</span>
+                        <h3 class="game-title">ColoRise</h3>
+                        <p class="game-desc">A colorful, high-difficulty puzzle platformer revolving around matching
+                            collision colors and navigating fast-paced rotational towers.</p>
+                        <div class="tags">
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Game Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://danielboldrin.itch.io/rodeo-poker" target="_blank" class="game-block fade-up delay-3">
+                    <div class="game-block-bg" style="background-image: url('Images/Rodeo cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Unity Tool / Framework</span>
+                        <h3 class="game-title">Rodeo Poker</h3>
+                        <p class="game-desc">Bet Game Template Card Game featuring complex multiplayer networking and
+                            betting logic.</p>
+                        <div class="tags">
+                            <span class="tag">Multiplayer</span>
+                            <span class="tag">Card Game</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 4 -->
+                <a href="https://danielboldrin.itch.io/qbert" target="_blank" class="game-block fade-up delay-1">
+                    <div class="game-block-bg" style="background-image: url('Images/QBert Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Arcade Remake</span>
+                        <h3 class="game-title">Q*bert 3D</h3>
+                        <p class="game-desc">A precise 3D recreation of the classic arcade title, solving complex
+                            orthographic projection tracking and jump-curve math.</p>
+                        <div class="tags">
+                            <span class="tag">Orthographic Matrix</span>
+                            <span class="tag">Custom Physics</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 5 -->
+                <a href="https://danielboldrin.itch.io/chalko" target="_blank" class="game-block fade-up delay-2">
+                    <div class="game-block-bg" style="background-image: url('Images/Chalko Cover.gif');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">Chalko</h3>
+                        <p class="game-desc">A unique puzzle platformer with hand-drawn chalk aesthetics and innovative
+                            mechanics.</p>
+                        <div class="tags">
+                            <span class="tag">Puzzle</span>
+                            <span class="tag">Platformer</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 6 -->
+                <a href="https://danielboldrin.itch.io/cg" target="_blank" class="game-block fade-up delay-3">
+                    <div class="game-block-bg" style="background-image: url('Images/Courting Glory Cover.png');"></div>
+                    <div class="game-content">
+                        <span class="game-category">Game Dev</span>
+                        <h3 class="game-title">Courting Glory</h3>
+                        <p class="game-desc">A Web3 deck-builder fighting game combining strategic card play with
+                            intense arena combat.</p>
+                        <div class="tags">
+                            <span class="tag">Deck-builder</span>
+                            <span class="tag">Fighting Game</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="fade-up" style="text-align: center; margin-top: 4rem;">
+                <a href="games.html" class="btn btn-primary">View All Games</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links fade-up">
+                <a href="mailto:daniel_cboldrin@hotmail.com" class="social-link" title="Email me" aria-label="Email"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-boldrin/" target="_blank" class="social-link"
+                    title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/soueuroya" target="_blank" class="social-link" title="GitHub"
+                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://danielboldrin.itch.io/" target="_blank" class="social-link" title="Itch.io"
+                    aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+            </div>
+            <p class="copyright fade-up delay-1">&copy; 2026 Daniel Boldrin. Built with Unity, C#, and a passion for
+                interactive systems.</p>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- unified script -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/ufo-multiplayer.js" defer></script>
+    <script src="js/analytics.js" defer></script>
+    <script src="js/main.js?v=2"></script>
+</body>
+
+</html>
