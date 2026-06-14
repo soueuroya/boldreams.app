@@ -1,0 +1,21 @@
+games I've done:
+RAWMEN - Food Fighter Arena Action - https://danielboldrin.itch.io/rawmen
+Rodeo Poker - Bet Game Template Card Game - https://danielboldrin.itch.io/rodeo-poker
+hoame - Meditation App Educational - https://danielboldrin.itch.io/hoame
+Courting Glory - Card Fighting Game - https://danielboldrin.itch.io/cg
+ColoRise - A colorful head-breaking platformer! - https://danielboldrin.itch.io/colorise
+Chalko - Puzzle Platformer - https://danielboldrin.itch.io/chalko
+Heist of Whiskers - 2D obstacle patformer - https://oswald-studios.itch.io/heist-of-whiskers
+Qbert - Arcade Game Remake - https://danielboldrin.itch.io/qbert
+CrocGame - Infinite Runner Platformer - https://danielboldrin.itch.io/crocgame
+Diedle36 - Daily dice guessing game. Puzzle - https://danielboldrin.itch.io/diedle
+BattleBots - Battle Arena Game Fighting - https://danielboldrin.itch.io/battlebots
+Nail Down - Mobile Post-Apocalyptic Puzzle Platform - https://danielboldrin.itch.io/nail-down
+Hacking Minigame - https://danielboldrin.itch.io/hacking-minigame
+Sky Runner - Endless Runner Platformer - https://danielboldrin.itch.io/sky-runner
+Fruit Splash - Unity Match - Match 3 Game Template for Unity projects - https://danielboldrin.itch.io/fruit-splash
+Lockpicking Minigame - Unity lockpicking puzzle template - https://danielboldrin.itch.io/lockpicking-minigame-template
+Unity Multiplayer - Template Project for Multiplayer Unity WebGL projects - https://danielboldrin.itch.io/unity-multiplayer-rooms-template
+Simple Unity Audio - Unity project that reacts to the song is currently being played. - https://danielboldrin.itch.io/simple-unity-audio-visualizer
+Wired Saintz - 2d survival base defense inventory management repairing - https://danielboldrin.itch.io/wired-saintz
+Sword - Survival game where you are the sword. - https://danielboldrin.itch.io/sword

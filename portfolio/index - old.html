@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Boldrin | Unity Lead Developer</title>
+
+<style>
+:root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --accent: #22c55e;
+    --text: #e2e8f0;
+    --sub: #94a3b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+}
+
+p {
+    color: var(--sub);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 span {
+    color: var(--accent);
+}
+
+.buttons a {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: var(--accent);
+    color: black;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.projects {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline {
+    border-left: 2px solid var(--accent);
+    padding-left: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #333;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Daniel <span>Boldrin</span></h1>
+    <p>Unity Lead Developer | Multiplayer Systems | 14+ Years Experience</p>
+
+    <div class="buttons">
+        <a href="https://danielboldrin.itch.io/" target="_blank">🎮 Itch.io</a>
+        <a href="https://www.linkedin.com/in/daniel-boldrin/" target="_blank">💼 LinkedIn</a>
+        <a href="mailto:daniel_cboldrin@hotmail.com">📧 Email</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>
+        Results-driven Unity and C# Developer with over 14 years of experience delivering
+        multiplayer games, simulations, VR applications, and scalable systems.
+        Specialized in performance optimization, real-time networking, and gameplay systems.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>Skills</h2>
+    <div class="grid projects">
+        <div class="card">Unity 3D / C#</div>
+        <div class="card">Multiplayer (Colyseus, Netcode)</div>
+        <div class="card">WebGL / Mobile / Console</div>
+        <div class="card">VR (OpenXR, WaveXR)</div>
+        <div class="card">Backend (SQL, AWS, APIs)</div>
+        <div class="card">Leadership & Architecture</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>Projects</h2>
+    <div class="grid projects">
+
+        <div class="card">
+            <h3>Rodeo</h3>
+            <p>Large-scale multiplayer betting game with thousands of concurrent players.</p>
+        </div>
+
+        <div class="card">
+            <h3>Poker Platform</h3>
+            <p>Real-time multiplayer poker system with clubs, unions, and matchmaking.</p>
+        </div>
+
+        <div class="card">
+            <h3>Rawmen</h3>
+            <p>Multiplayer arena shooter for Xbox, PlayStation, Switch, and Steam.</p>
+        </div>
+
+        <div class="card">
+            <h3>Courting Glory</h3>
+            <p>Web3 deck-builder with NFT-based champions and card systems.</p>
+        </div>
+
+        <div class="card">
+            <h3>VR Medical Simulations</h3>
+            <p>Training systems for microbiology, transfusion, and emergency care.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+    <h2>Experience</h2>
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Unity Lead Developer — Suprema</h3>
+            <p>2024–2026</p>
+            <p>Built scalable multiplayer systems handling thousands of users.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Unity Lead Developer — ZeMinds</h3>
+            <p>2022–2025</p>
+            <p>Led cross-platform game development across mobile and console.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Unity VR Developer — Luxsonic</h3>
+            <p>2021–2022</p>
+            <p>Developed VR training systems with realistic medical workflows.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>Contact</h2>
+    <p>Email: daniel_cboldrin@hotmail.com</p>
+    <p>Phone: +1 (416) 876-2689</p>
+    <p>Location: Toronto, ON, Canada</p>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2026 Daniel Boldrin — Unity Developer Portfolio</p>
+</div>
+
+<script>
+// simple fade-in effect
+const cards = document.querySelectorAll('.card');
+
+window.addEventListener('scroll', () => {
+    cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 50){
+            card.style.opacity = 1;
+            card.style.transform = "translateY(0)";
+        }
+    });
+});
+
+cards.forEach(card => {
+    card.style.opacity = 0;
+    card.style.transform = "translateY(20px)";
+    card.style.transition = "0.5s";
+});
+</script>
+
+</body>
+</html>

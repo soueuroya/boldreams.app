@@ -1,0 +1,96 @@
+﻿:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --accent: #22c55e;
+  --text: #e2e8f0;
+  --sub: #94a3b8;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+/* Layout */
+.section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero span {
+  color: var(--accent);
+}
+
+/* Buttons */
+.btn-modern {
+  border: 1px solid var(--accent);
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 5px;
+  color: var(--text);
+  transition: 0.3s;
+}
+
+.btn-modern:hover {
+  background: var(--accent);
+  color: black;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Cards */
+.card-modern {
+  background: var(--card);
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card-modern:hover {
+  transform: translateY(-5px);
+}
+
+/* Titles */
+h2 {
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
+}
+
+/* Text */
+p {
+  color: var(--sub);
+}
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
